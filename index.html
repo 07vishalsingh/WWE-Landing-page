@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Fontawesome Link for Icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> 
+
+    <!-- web page css  -->
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- lightbox css  -->
+
+     <link rel="stylesheet" href="assets/css/lightbox.min.css" />
+
+     <!-- favicons -->
+     <link
+       rel="apple-touch-icon"
+       sizes="180x180"
+       href="assets/icons/apple-touch-icon.png"
+       />
+     <link
+       rel="icon"
+       type="image/png"
+       sizes="32x32"
+       href="assets/icons/favicons-32x32.png"
+       />
+     <link
+       rel="icon"
+       type="image/png"
+       sizes="16x16"
+       href="assets/icons/favicons-16x16.png"
+       />
+
+    <title>wweTV Landing Page</title>
+</head>
+<body>
+    <nav>
+        
+        <a href="" class="logo">
+            <h1>
+                <span  class="wwe">WWE</span><span class="tv"><TV/span><span class="fist">&#x1F44A;</span>
+            </h1>
+        </a>
+
+        <!-- Dark/light theme switcher -->
+        <dav class="theme-switch">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
+                <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+                <ion-icon name="moon-outline" class="moon"></ion-icon>
+                <div class="switcher"></div>
+            </label>
+        </dav>
+
+        <ul>
+            <li class="nav-item">
+                <a href="#about" class="nav-link" id="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#stars" class="nav-link" id="nav-link">Wrestling Stars</a>
+            </li>
+            <li class="nav-item">
+                <a href="#stackholders" class="nav-link" id="nav-link">stackholders</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+            </li>
+        </ul>
+
+        <!-- Bars -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="intro-text">
+            <h1>
+                <span class="hear"> You can Hear the wwe </span> <br/>
+                <span class="connecting"> Connecting</span>
+            </h1>
+            <p>
+                An online streaming platform for wresting matches <br />
+                We also dedicate some special time to throwbacks coz old is gold
+            </p>
+            <a class="btn red" href="#">Watch More</a>
+            <a class="btn blue" href="#">Subscribe</a>
+        </div>
+        <div class="i-frame">
+            <iframe 
+            width="560" 
+            height="360" 
+            src="https://www.youtube.com/embed/NyAFua9eJOI" 
+            title="WWE’s new signature intro" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+             <div class="stand-1"></div>
+             <div class="stand-2"></div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <h3>Watch the wwe</h3>
+        <p>
+            Our primary objective is tobring live wwe wresting matches to fans all around the world
+        </p>
+
+        <h3>
+            Its not about the Fights Alone!
+        </h3>
+        <p>
+            We also airdocumentaries specially made for grates, lifestyle of wrestlers, news, and more.
+        </p>
+    </section>
+
+    <!-- Lightbox image gallery -->
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img"><img src="assets/images/Vince_McMahon_2.jpg.webp" alt="img" draggable="false"></div>
+            <h2>Vince McMahon</h2>
+            <span>WWE FOUNDER</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Triple_H_November_2017.jpg" alt="img" draggable="false"></div>
+            <h2>HHH</h2>
+            <span>WWE CEO</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/austin.jpeg" alt="img" draggable="false"></div>
+            <h2>Adam Pearce</h2>
+            <span>WWE OFFICIAL</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/lesner.webp" alt="img" draggable="false"></div>
+            <h2>Brock Lesner</h2>
+            <span>WWE Superstar</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/randy.jpg" alt="img" draggable="false"></div>
+            <h2>Randy Ortan</h2>
+            <span>WWE Superstar</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/goldberg.jpg" alt="img" draggable="false"></div>
+            <h2>Goldberg</h2>
+            <span>WWE Superstar</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/rock.webp" alt="img" draggable="false"></div>
+            <h2>The Rock</h2>
+            <span>WWE Superstar</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/sAustin.jpg" alt="img" draggable="false"></div>
+            <h2>Stone Cold</h2>
+            <span>WWE Superstar</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/undertaker.jpg" alt="img" draggable="false"></div>
+            <h2>Deadman</h2>
+            <span>WWE Superstar</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+      
+      <!-- scrolling image -->
+
+      <marquee behavior="scroll" direction="left">
+           <img src="assets/images/roman-reigns1.jpg" alt="img" draggable="false">
+        </marquee>
+      
+
+    
+     <!-- Email subscription -->
+     <section class="sub" id="sub">
+        <h3>Subscribe to our newsletter for updates</h3>
+        <form action="#">
+            <input
+             type="email"
+             name="email"
+             id="email-sub"
+             class="email-sub"
+             required
+             />
+             <input 
+             type="submit"
+             value="Subscribe"
+             id="submit-btn"
+             class="submit-btn"
+             />
+        </form>
+     </section>
+
+     <!-- Social icons -->
+     <section class="social">
+        <h3>Connect with us on Social Media</h3>
+        <div class="socicons">
+            <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+        </div>
+     </section>
+     
+     <footer>&copy;2023. All Rights Reserverd</footer>
+
+     <!-- Scroll to top button -->
+     <i class="scroll-up" id="scroll-up"><img
+    src="assets/icons/icons8-upward-arrow.png" 
+     class="socicon up-arrow" 
+    alt="up-arrow"
+    /></i>
+
+    <!-- web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script 
+     type="module"
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+     ></script>
+
+     <!-- lightbox-->
+     <script src="assets/js/simple-lightbox.min.js"></script>
+     <script>
+        var lightbox = new lightbox(".stars-gallery a");
+     </script>
+</body>
+</html>
